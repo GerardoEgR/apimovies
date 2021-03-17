@@ -1,0 +1,98 @@
+body,html{
+  width:100%;height:100%
+}
+body{
+  font-family:Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+:root{
+  scroll-behavior: smooth;
+}
+.carousel-inner{
+  padding-top: 3.5rem;
+  width: 100%;
+}
+.carousel-item{
+  width: 100%;
+}
+
+.search-movies{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.movie{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+section {
+  display: flex;
+  width: 100%;
+  overflow-y: hidden;
+}
+section img {
+  width: 200px;
+  transition: .3s all;
+}
+section img:hover {
+  margin-left: 0 40px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+h2{
+  margin-left: 30px;
+  color: white;
+  font-size: 2.2rem;
+}
+.content {
+  display: none;
+}
+.content div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px;
+}
+.content-display {
+  display: block;
+}
+iframe {
+  margin: 15px;
+}
+#close {
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+}
+.navbar-brand {
+  padding-left: 3rem;
+}
+.form {
+  padding-right: 3rem;
+}
+footer{
+  padding:2rem 0;
+}
+
+@media (min-width:768px){
+  .carousel-inner{
+    padding-top: 3.2rem;
+  }
+  .carousel-item{
+    width: 100%;
+    height: 100vh;
+  }
+  .fs-4{
+    text-shadow: 1px 1px 1px black;
+  }
+  .display-3{
+    text-shadow: 2px 2px 2px black;;
+  }
+  section img {
+    width: 300px;
+  }
+  h2{
+    font-size: 3rem;
+  }
+}
